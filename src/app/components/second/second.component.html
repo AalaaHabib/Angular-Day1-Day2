@@ -1,0 +1,12 @@
+<section class="second">
+    <img src="/assets/pervious.png/" class="pervious w-50" alt="next button"
+        (click)="getPervious($event)">
+    <img src="/assets/next.png/"     class="next w-50"     alt="pervious button"
+        (click)="getNext()"/>   
+    <div class="container">
+        <h2 class="text-center"><span class="link" (click)="start_and_stop()">start</span> my slider</h2>
+        <div class="slider">
+            <img [src]="currentPath"  class="w-100 h-500"   alt="image in the slider" >
+        </div>    
+    </div>
+</section>

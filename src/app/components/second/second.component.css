@@ -1,0 +1,10 @@
+.second{margin-top: 40px;}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.next ,.pervious{position: absolute; top: 45%;}
+.second{position: relative;}
+
+.pervious{ left: 2%;}
+.next{ right: 2%;}

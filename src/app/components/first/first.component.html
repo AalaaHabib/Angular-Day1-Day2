@@ -1,0 +1,12 @@
+<h2 class="text-center font-s-italic">Hello From First Component</h2>
+<div class="input-form div">
+    <input type="text"  id="exchageRateDate" value=""
+    class="w-70 m-10 h-40" name="text"> <!--[(ngModel)]="inputValue" -->
+   
+    <input 
+    type="button" (click)="myFunc()" formtarget="_blank"
+    class="btn btn-darkSalamon text-white font-18" value="Get Text">
+</div>
+<div class="form-result div">
+    <h3>You have write : {{inputValue}}</h3>   
+</div>
